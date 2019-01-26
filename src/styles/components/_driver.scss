@@ -1,0 +1,9 @@
+// style drivers
+
+.drivers li:first-child {
+    background-color: _palette(success);
+    padding: 10px;
+}
+.drivers li{
+	border-bottom:1px solid _palette(fg-light);
+}

@@ -1,0 +1,3936 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App contains Header,Content,SectionListRace and footer App contains Content 1`] = `false`;
+
+exports[`App contains Header,Content,SectionListRace and footer App contains Footer 1`] = `false`;
+
+exports[`App contains Header,Content,SectionListRace and footer App contains Header 1`] = `false`;
+
+exports[`App contains Header,Content,SectionListRace and footer App contains SectionListRace 1`] = `true`;
+
+exports[`creaction of component Header,Content,SectionListRace,SectionSeason,loading and footer component App created 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Header
+          headerProp="Challenge React FinCompare Campany"
+/>,
+        <Content
+          contentProp="This single page application that presents a list that shows the F1 world champions starting from 2005 until 2015. Clicking on an item shows the list of the winners for every race for the selected year."
+/>,
+        <SectionListRace />,
+        <Footer
+          footerProp="Content Footer"
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "headerProp": "Challenge React FinCompare Campany",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "contentProp": "This single page application that presents a list that shows the F1 world champions starting from 2005 until 2015. Clicking on an item shows the list of the winners for every race for the selected year.",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "footerProp": "Content Footer",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Header
+            headerProp="Challenge React FinCompare Campany"
+/>,
+          <Content
+            contentProp="This single page application that presents a list that shows the F1 world champions starting from 2005 until 2015. Clicking on an item shows the list of the winners for every race for the selected year."
+/>,
+          <SectionListRace />,
+          <Footer
+            footerProp="Content Footer"
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "headerProp": "Challenge React FinCompare Campany",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "contentProp": "This single page application that presents a list that shows the F1 world champions starting from 2005 until 2015. Clicking on an item shows the list of the winners for every race for the selected year.",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "footerProp": "Content Footer",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`creaction of component Header,Content,SectionListRace,SectionSeason,loading and footer component Content created 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Content />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <section
+        className="wrapper"
+>
+        <div
+                className="inner"
+        >
+                <header
+                        className="special"
+                >
+                        <p
+                                className="content"
+                        />
+                </header>
+        </div>
+</section>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="inner"
+>
+          <header
+                    className="special"
+          >
+                    <p
+                              className="content"
+                    />
+          </header>
+</div>,
+        "className": "wrapper",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <header
+            className="special"
+>
+            <p
+                        className="content"
+            />
+</header>,
+          "className": "inner",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p
+              className="content"
+/>,
+            "className": "special",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "content",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          "type": "header",
+        },
+        "type": "div",
+      },
+      "type": "section",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <section
+          className="wrapper"
+>
+          <div
+                    className="inner"
+          >
+                    <header
+                              className="special"
+                    >
+                              <p
+                                        className="content"
+                              />
+                    </header>
+          </div>
+</section>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="inner"
+>
+            <header
+                        className="special"
+            >
+                        <p
+                                    className="content"
+                        />
+            </header>
+</div>,
+          "className": "wrapper",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <header
+              className="special"
+>
+              <p
+                            className="content"
+              />
+</header>,
+            "className": "inner",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p
+                className="content"
+/>,
+              "className": "special",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "content",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            "type": "header",
+          },
+          "type": "div",
+        },
+        "type": "section",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`creaction of component Header,Content,SectionListRace,SectionSeason,loading and footer component Footer created 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Footer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <footer
+        className="footer"
+>
+        <div
+                className="inner"
+        >
+                <div
+                        className="content"
+                >
+                        <section>
+                                <h3>
+                                        Accumsan montes viverra
+                                </h3>
+                                <p />
+                        </section>
+                        <section>
+                                <h4>
+                                        Sem turpis amet semper
+                                </h4>
+                                <ul
+                                        className="alt"
+                                >
+                                        <li>
+                                                <a
+                                                        href=""
+                                                >
+                                                        Dolor pulvinar sed etiam.
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a
+                                                        href=""
+                                                >
+                                                        Etiam vel lorem sed amet.
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a
+                                                        href=""
+                                                >
+                                                        Felis enim feugiat viverra.
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a
+                                                        href=""
+                                                >
+                                                        Dolor pulvinar magna etiam.
+                                                </a>
+                                        </li>
+                                </ul>
+                        </section>
+                        <section>
+                                <h4>
+                                        Magna sed ipsum
+                                </h4>
+                                <ul
+                                        className="plain"
+                                >
+                                        <li>
+                                                <a
+                                                        href=""
+                                                >
+                                                        <i
+                                                                className="icon fa-twitter"
+                                                        >
+                                                                 
+                                                        </i>
+                                                        Twitter
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a
+                                                        href=""
+                                                >
+                                                        <i
+                                                                className="icon fa-facebook"
+                                                        >
+                                                                 
+                                                        </i>
+                                                        Facebook
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a
+                                                        href=""
+                                                >
+                                                        <i
+                                                                className="icon fa-instagram"
+                                                        >
+                                                                 
+                                                        </i>
+                                                        Instagram
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a
+                                                        href=""
+                                                >
+                                                        <i
+                                                                className="icon fa-github"
+                                                        >
+                                                                 
+                                                        </i>
+                                                        Github
+                                                </a>
+                                        </li>
+                                </ul>
+                        </section>
+                </div>
+        </div>
+</footer>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="inner"
+>
+          <div
+                    className="content"
+          >
+                    <section>
+                              <h3>
+                                        Accumsan montes viverra
+                              </h3>
+                              <p />
+                    </section>
+                    <section>
+                              <h4>
+                                        Sem turpis amet semper
+                              </h4>
+                              <ul
+                                        className="alt"
+                              >
+                                        <li>
+                                                  <a
+                                                            href=""
+                                                  >
+                                                            Dolor pulvinar sed etiam.
+                                                  </a>
+                                        </li>
+                                        <li>
+                                                  <a
+                                                            href=""
+                                                  >
+                                                            Etiam vel lorem sed amet.
+                                                  </a>
+                                        </li>
+                                        <li>
+                                                  <a
+                                                            href=""
+                                                  >
+                                                            Felis enim feugiat viverra.
+                                                  </a>
+                                        </li>
+                                        <li>
+                                                  <a
+                                                            href=""
+                                                  >
+                                                            Dolor pulvinar magna etiam.
+                                                  </a>
+                                        </li>
+                              </ul>
+                    </section>
+                    <section>
+                              <h4>
+                                        Magna sed ipsum
+                              </h4>
+                              <ul
+                                        className="plain"
+                              >
+                                        <li>
+                                                  <a
+                                                            href=""
+                                                  >
+                                                            <i
+                                                                      className="icon fa-twitter"
+                                                            >
+                                                                       
+                                                            </i>
+                                                            Twitter
+                                                  </a>
+                                        </li>
+                                        <li>
+                                                  <a
+                                                            href=""
+                                                  >
+                                                            <i
+                                                                      className="icon fa-facebook"
+                                                            >
+                                                                       
+                                                            </i>
+                                                            Facebook
+                                                  </a>
+                                        </li>
+                                        <li>
+                                                  <a
+                                                            href=""
+                                                  >
+                                                            <i
+                                                                      className="icon fa-instagram"
+                                                            >
+                                                                       
+                                                            </i>
+                                                            Instagram
+                                                  </a>
+                                        </li>
+                                        <li>
+                                                  <a
+                                                            href=""
+                                                  >
+                                                            <i
+                                                                      className="icon fa-github"
+                                                            >
+                                                                       
+                                                            </i>
+                                                            Github
+                                                  </a>
+                                        </li>
+                              </ul>
+                    </section>
+          </div>
+</div>,
+        "className": "footer",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="content"
+>
+            <section>
+                        <h3>
+                                    Accumsan montes viverra
+                        </h3>
+                        <p />
+            </section>
+            <section>
+                        <h4>
+                                    Sem turpis amet semper
+                        </h4>
+                        <ul
+                                    className="alt"
+                        >
+                                    <li>
+                                                <a
+                                                            href=""
+                                                >
+                                                            Dolor pulvinar sed etiam.
+                                                </a>
+                                    </li>
+                                    <li>
+                                                <a
+                                                            href=""
+                                                >
+                                                            Etiam vel lorem sed amet.
+                                                </a>
+                                    </li>
+                                    <li>
+                                                <a
+                                                            href=""
+                                                >
+                                                            Felis enim feugiat viverra.
+                                                </a>
+                                    </li>
+                                    <li>
+                                                <a
+                                                            href=""
+                                                >
+                                                            Dolor pulvinar magna etiam.
+                                                </a>
+                                    </li>
+                        </ul>
+            </section>
+            <section>
+                        <h4>
+                                    Magna sed ipsum
+                        </h4>
+                        <ul
+                                    className="plain"
+                        >
+                                    <li>
+                                                <a
+                                                            href=""
+                                                >
+                                                            <i
+                                                                        className="icon fa-twitter"
+                                                            >
+                                                                         
+                                                            </i>
+                                                            Twitter
+                                                </a>
+                                    </li>
+                                    <li>
+                                                <a
+                                                            href=""
+                                                >
+                                                            <i
+                                                                        className="icon fa-facebook"
+                                                            >
+                                                                         
+                                                            </i>
+                                                            Facebook
+                                                </a>
+                                    </li>
+                                    <li>
+                                                <a
+                                                            href=""
+                                                >
+                                                            <i
+                                                                        className="icon fa-instagram"
+                                                            >
+                                                                         
+                                                            </i>
+                                                            Instagram
+                                                </a>
+                                    </li>
+                                    <li>
+                                                <a
+                                                            href=""
+                                                >
+                                                            <i
+                                                                        className="icon fa-github"
+                                                            >
+                                                                         
+                                                            </i>
+                                                            Github
+                                                </a>
+                                    </li>
+                        </ul>
+            </section>
+</div>,
+          "className": "inner",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <section>
+                <h3>
+                                Accumsan montes viverra
+                </h3>
+                <p />
+</section>,
+              <section>
+                <h4>
+                                Sem turpis amet semper
+                </h4>
+                <ul
+                                className="alt"
+                >
+                                <li>
+                                                <a
+                                                                href=""
+                                                >
+                                                                Dolor pulvinar sed etiam.
+                                                </a>
+                                </li>
+                                <li>
+                                                <a
+                                                                href=""
+                                                >
+                                                                Etiam vel lorem sed amet.
+                                                </a>
+                                </li>
+                                <li>
+                                                <a
+                                                                href=""
+                                                >
+                                                                Felis enim feugiat viverra.
+                                                </a>
+                                </li>
+                                <li>
+                                                <a
+                                                                href=""
+                                                >
+                                                                Dolor pulvinar magna etiam.
+                                                </a>
+                                </li>
+                </ul>
+</section>,
+              <section>
+                <h4>
+                                Magna sed ipsum
+                </h4>
+                <ul
+                                className="plain"
+                >
+                                <li>
+                                                <a
+                                                                href=""
+                                                >
+                                                                <i
+                                                                                className="icon fa-twitter"
+                                                                >
+                                                                                 
+                                                                </i>
+                                                                Twitter
+                                                </a>
+                                </li>
+                                <li>
+                                                <a
+                                                                href=""
+                                                >
+                                                                <i
+                                                                                className="icon fa-facebook"
+                                                                >
+                                                                                 
+                                                                </i>
+                                                                Facebook
+                                                </a>
+                                </li>
+                                <li>
+                                                <a
+                                                                href=""
+                                                >
+                                                                <i
+                                                                                className="icon fa-instagram"
+                                                                >
+                                                                                 
+                                                                </i>
+                                                                Instagram
+                                                </a>
+                                </li>
+                                <li>
+                                                <a
+                                                                href=""
+                                                >
+                                                                <i
+                                                                                className="icon fa-github"
+                                                                >
+                                                                                 
+                                                                </i>
+                                                                Github
+                                                </a>
+                                </li>
+                </ul>
+</section>,
+            ],
+            "className": "content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    Accumsan montes viverra
+</h3>,
+                  <p />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Accumsan montes viverra",
+                  },
+                  "ref": null,
+                  "rendered": "Accumsan montes viverra",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "p",
+                },
+              ],
+              "type": "section",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4>
+                    Sem turpis amet semper
+</h4>,
+                  <ul
+                    className="alt"
+>
+                    <li>
+                                        <a
+                                                            href=""
+                                        >
+                                                            Dolor pulvinar sed etiam.
+                                        </a>
+                    </li>
+                    <li>
+                                        <a
+                                                            href=""
+                                        >
+                                                            Etiam vel lorem sed amet.
+                                        </a>
+                    </li>
+                    <li>
+                                        <a
+                                                            href=""
+                                        >
+                                                            Felis enim feugiat viverra.
+                                        </a>
+                    </li>
+                    <li>
+                                        <a
+                                                            href=""
+                                        >
+                                                            Dolor pulvinar magna etiam.
+                                        </a>
+                    </li>
+</ul>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sem turpis amet semper",
+                  },
+                  "ref": null,
+                  "rendered": "Sem turpis amet semper",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <li>
+                        <a
+                                                href=""
+                        >
+                                                Dolor pulvinar sed etiam.
+                        </a>
+</li>,
+                      <li>
+                        <a
+                                                href=""
+                        >
+                                                Etiam vel lorem sed amet.
+                        </a>
+</li>,
+                      <li>
+                        <a
+                                                href=""
+                        >
+                                                Felis enim feugiat viverra.
+                        </a>
+</li>,
+                      <li>
+                        <a
+                                                href=""
+                        >
+                                                Dolor pulvinar magna etiam.
+                        </a>
+</li>,
+                    ],
+                    "className": "alt",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href=""
+>
+                          Dolor pulvinar sed etiam.
+</a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Dolor pulvinar sed etiam.",
+                          "href": "",
+                        },
+                        "ref": null,
+                        "rendered": "Dolor pulvinar sed etiam.",
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href=""
+>
+                          Etiam vel lorem sed amet.
+</a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Etiam vel lorem sed amet.",
+                          "href": "",
+                        },
+                        "ref": null,
+                        "rendered": "Etiam vel lorem sed amet.",
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href=""
+>
+                          Felis enim feugiat viverra.
+</a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Felis enim feugiat viverra.",
+                          "href": "",
+                        },
+                        "ref": null,
+                        "rendered": "Felis enim feugiat viverra.",
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href=""
+>
+                          Dolor pulvinar magna etiam.
+</a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Dolor pulvinar magna etiam.",
+                          "href": "",
+                        },
+                        "ref": null,
+                        "rendered": "Dolor pulvinar magna etiam.",
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                  ],
+                  "type": "ul",
+                },
+              ],
+              "type": "section",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4>
+                    Magna sed ipsum
+</h4>,
+                  <ul
+                    className="plain"
+>
+                    <li>
+                                        <a
+                                                            href=""
+                                        >
+                                                            <i
+                                                                                className="icon fa-twitter"
+                                                            >
+                                                                                 
+                                                            </i>
+                                                            Twitter
+                                        </a>
+                    </li>
+                    <li>
+                                        <a
+                                                            href=""
+                                        >
+                                                            <i
+                                                                                className="icon fa-facebook"
+                                                            >
+                                                                                 
+                                                            </i>
+                                                            Facebook
+                                        </a>
+                    </li>
+                    <li>
+                                        <a
+                                                            href=""
+                                        >
+                                                            <i
+                                                                                className="icon fa-instagram"
+                                                            >
+                                                                                 
+                                                            </i>
+                                                            Instagram
+                                        </a>
+                    </li>
+                    <li>
+                                        <a
+                                                            href=""
+                                        >
+                                                            <i
+                                                                                className="icon fa-github"
+                                                            >
+                                                                                 
+                                                            </i>
+                                                            Github
+                                        </a>
+                    </li>
+</ul>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Magna sed ipsum",
+                  },
+                  "ref": null,
+                  "rendered": "Magna sed ipsum",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <li>
+                        <a
+                                                href=""
+                        >
+                                                <i
+                                                                        className="icon fa-twitter"
+                                                >
+                                                                         
+                                                </i>
+                                                Twitter
+                        </a>
+</li>,
+                      <li>
+                        <a
+                                                href=""
+                        >
+                                                <i
+                                                                        className="icon fa-facebook"
+                                                >
+                                                                         
+                                                </i>
+                                                Facebook
+                        </a>
+</li>,
+                      <li>
+                        <a
+                                                href=""
+                        >
+                                                <i
+                                                                        className="icon fa-instagram"
+                                                >
+                                                                         
+                                                </i>
+                                                Instagram
+                        </a>
+</li>,
+                      <li>
+                        <a
+                                                href=""
+                        >
+                                                <i
+                                                                        className="icon fa-github"
+                                                >
+                                                                         
+                                                </i>
+                                                Github
+                        </a>
+</li>,
+                    ],
+                    "className": "plain",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href=""
+>
+                          <i
+                                                    className="icon fa-twitter"
+                          >
+                                                     
+                          </i>
+                          Twitter
+</a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <i
+                              className="icon fa-twitter"
+>
+                               
+</i>,
+                            "Twitter",
+                          ],
+                          "href": "",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": " ",
+                              "className": "icon fa-twitter",
+                            },
+                            "ref": null,
+                            "rendered": " ",
+                            "type": "i",
+                          },
+                          "Twitter",
+                        ],
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href=""
+>
+                          <i
+                                                    className="icon fa-facebook"
+                          >
+                                                     
+                          </i>
+                          Facebook
+</a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <i
+                              className="icon fa-facebook"
+>
+                               
+</i>,
+                            "Facebook",
+                          ],
+                          "href": "",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": " ",
+                              "className": "icon fa-facebook",
+                            },
+                            "ref": null,
+                            "rendered": " ",
+                            "type": "i",
+                          },
+                          "Facebook",
+                        ],
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href=""
+>
+                          <i
+                                                    className="icon fa-instagram"
+                          >
+                                                     
+                          </i>
+                          Instagram
+</a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <i
+                              className="icon fa-instagram"
+>
+                               
+</i>,
+                            "Instagram",
+                          ],
+                          "href": "",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": " ",
+                              "className": "icon fa-instagram",
+                            },
+                            "ref": null,
+                            "rendered": " ",
+                            "type": "i",
+                          },
+                          "Instagram",
+                        ],
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href=""
+>
+                          <i
+                                                    className="icon fa-github"
+                          >
+                                                     
+                          </i>
+                          Github
+</a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <i
+                              className="icon fa-github"
+>
+                               
+</i>,
+                            "Github",
+                          ],
+                          "href": "",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": " ",
+                              "className": "icon fa-github",
+                            },
+                            "ref": null,
+                            "rendered": " ",
+                            "type": "i",
+                          },
+                          "Github",
+                        ],
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                  ],
+                  "type": "ul",
+                },
+              ],
+              "type": "section",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "footer",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <footer
+          className="footer"
+>
+          <div
+                    className="inner"
+          >
+                    <div
+                              className="content"
+                    >
+                              <section>
+                                        <h3>
+                                                  Accumsan montes viverra
+                                        </h3>
+                                        <p />
+                              </section>
+                              <section>
+                                        <h4>
+                                                  Sem turpis amet semper
+                                        </h4>
+                                        <ul
+                                                  className="alt"
+                                        >
+                                                  <li>
+                                                            <a
+                                                                      href=""
+                                                            >
+                                                                      Dolor pulvinar sed etiam.
+                                                            </a>
+                                                  </li>
+                                                  <li>
+                                                            <a
+                                                                      href=""
+                                                            >
+                                                                      Etiam vel lorem sed amet.
+                                                            </a>
+                                                  </li>
+                                                  <li>
+                                                            <a
+                                                                      href=""
+                                                            >
+                                                                      Felis enim feugiat viverra.
+                                                            </a>
+                                                  </li>
+                                                  <li>
+                                                            <a
+                                                                      href=""
+                                                            >
+                                                                      Dolor pulvinar magna etiam.
+                                                            </a>
+                                                  </li>
+                                        </ul>
+                              </section>
+                              <section>
+                                        <h4>
+                                                  Magna sed ipsum
+                                        </h4>
+                                        <ul
+                                                  className="plain"
+                                        >
+                                                  <li>
+                                                            <a
+                                                                      href=""
+                                                            >
+                                                                      <i
+                                                                                className="icon fa-twitter"
+                                                                      >
+                                                                                 
+                                                                      </i>
+                                                                      Twitter
+                                                            </a>
+                                                  </li>
+                                                  <li>
+                                                            <a
+                                                                      href=""
+                                                            >
+                                                                      <i
+                                                                                className="icon fa-facebook"
+                                                                      >
+                                                                                 
+                                                                      </i>
+                                                                      Facebook
+                                                            </a>
+                                                  </li>
+                                                  <li>
+                                                            <a
+                                                                      href=""
+                                                            >
+                                                                      <i
+                                                                                className="icon fa-instagram"
+                                                                      >
+                                                                                 
+                                                                      </i>
+                                                                      Instagram
+                                                            </a>
+                                                  </li>
+                                                  <li>
+                                                            <a
+                                                                      href=""
+                                                            >
+                                                                      <i
+                                                                                className="icon fa-github"
+                                                                      >
+                                                                                 
+                                                                      </i>
+                                                                      Github
+                                                            </a>
+                                                  </li>
+                                        </ul>
+                              </section>
+                    </div>
+          </div>
+</footer>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="inner"
+>
+            <div
+                        className="content"
+            >
+                        <section>
+                                    <h3>
+                                                Accumsan montes viverra
+                                    </h3>
+                                    <p />
+                        </section>
+                        <section>
+                                    <h4>
+                                                Sem turpis amet semper
+                                    </h4>
+                                    <ul
+                                                className="alt"
+                                    >
+                                                <li>
+                                                            <a
+                                                                        href=""
+                                                            >
+                                                                        Dolor pulvinar sed etiam.
+                                                            </a>
+                                                </li>
+                                                <li>
+                                                            <a
+                                                                        href=""
+                                                            >
+                                                                        Etiam vel lorem sed amet.
+                                                            </a>
+                                                </li>
+                                                <li>
+                                                            <a
+                                                                        href=""
+                                                            >
+                                                                        Felis enim feugiat viverra.
+                                                            </a>
+                                                </li>
+                                                <li>
+                                                            <a
+                                                                        href=""
+                                                            >
+                                                                        Dolor pulvinar magna etiam.
+                                                            </a>
+                                                </li>
+                                    </ul>
+                        </section>
+                        <section>
+                                    <h4>
+                                                Magna sed ipsum
+                                    </h4>
+                                    <ul
+                                                className="plain"
+                                    >
+                                                <li>
+                                                            <a
+                                                                        href=""
+                                                            >
+                                                                        <i
+                                                                                    className="icon fa-twitter"
+                                                                        >
+                                                                                     
+                                                                        </i>
+                                                                        Twitter
+                                                            </a>
+                                                </li>
+                                                <li>
+                                                            <a
+                                                                        href=""
+                                                            >
+                                                                        <i
+                                                                                    className="icon fa-facebook"
+                                                                        >
+                                                                                     
+                                                                        </i>
+                                                                        Facebook
+                                                            </a>
+                                                </li>
+                                                <li>
+                                                            <a
+                                                                        href=""
+                                                            >
+                                                                        <i
+                                                                                    className="icon fa-instagram"
+                                                                        >
+                                                                                     
+                                                                        </i>
+                                                                        Instagram
+                                                            </a>
+                                                </li>
+                                                <li>
+                                                            <a
+                                                                        href=""
+                                                            >
+                                                                        <i
+                                                                                    className="icon fa-github"
+                                                                        >
+                                                                                     
+                                                                        </i>
+                                                                        Github
+                                                            </a>
+                                                </li>
+                                    </ul>
+                        </section>
+            </div>
+</div>,
+          "className": "footer",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="content"
+>
+              <section>
+                            <h3>
+                                          Accumsan montes viverra
+                            </h3>
+                            <p />
+              </section>
+              <section>
+                            <h4>
+                                          Sem turpis amet semper
+                            </h4>
+                            <ul
+                                          className="alt"
+                            >
+                                          <li>
+                                                        <a
+                                                                      href=""
+                                                        >
+                                                                      Dolor pulvinar sed etiam.
+                                                        </a>
+                                          </li>
+                                          <li>
+                                                        <a
+                                                                      href=""
+                                                        >
+                                                                      Etiam vel lorem sed amet.
+                                                        </a>
+                                          </li>
+                                          <li>
+                                                        <a
+                                                                      href=""
+                                                        >
+                                                                      Felis enim feugiat viverra.
+                                                        </a>
+                                          </li>
+                                          <li>
+                                                        <a
+                                                                      href=""
+                                                        >
+                                                                      Dolor pulvinar magna etiam.
+                                                        </a>
+                                          </li>
+                            </ul>
+              </section>
+              <section>
+                            <h4>
+                                          Magna sed ipsum
+                            </h4>
+                            <ul
+                                          className="plain"
+                            >
+                                          <li>
+                                                        <a
+                                                                      href=""
+                                                        >
+                                                                      <i
+                                                                                    className="icon fa-twitter"
+                                                                      >
+                                                                                     
+                                                                      </i>
+                                                                      Twitter
+                                                        </a>
+                                          </li>
+                                          <li>
+                                                        <a
+                                                                      href=""
+                                                        >
+                                                                      <i
+                                                                                    className="icon fa-facebook"
+                                                                      >
+                                                                                     
+                                                                      </i>
+                                                                      Facebook
+                                                        </a>
+                                          </li>
+                                          <li>
+                                                        <a
+                                                                      href=""
+                                                        >
+                                                                      <i
+                                                                                    className="icon fa-instagram"
+                                                                      >
+                                                                                     
+                                                                      </i>
+                                                                      Instagram
+                                                        </a>
+                                          </li>
+                                          <li>
+                                                        <a
+                                                                      href=""
+                                                        >
+                                                                      <i
+                                                                                    className="icon fa-github"
+                                                                      >
+                                                                                     
+                                                                      </i>
+                                                                      Github
+                                                        </a>
+                                          </li>
+                            </ul>
+              </section>
+</div>,
+            "className": "inner",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <section>
+                  <h3>
+                                    Accumsan montes viverra
+                  </h3>
+                  <p />
+</section>,
+                <section>
+                  <h4>
+                                    Sem turpis amet semper
+                  </h4>
+                  <ul
+                                    className="alt"
+                  >
+                                    <li>
+                                                      <a
+                                                                        href=""
+                                                      >
+                                                                        Dolor pulvinar sed etiam.
+                                                      </a>
+                                    </li>
+                                    <li>
+                                                      <a
+                                                                        href=""
+                                                      >
+                                                                        Etiam vel lorem sed amet.
+                                                      </a>
+                                    </li>
+                                    <li>
+                                                      <a
+                                                                        href=""
+                                                      >
+                                                                        Felis enim feugiat viverra.
+                                                      </a>
+                                    </li>
+                                    <li>
+                                                      <a
+                                                                        href=""
+                                                      >
+                                                                        Dolor pulvinar magna etiam.
+                                                      </a>
+                                    </li>
+                  </ul>
+</section>,
+                <section>
+                  <h4>
+                                    Magna sed ipsum
+                  </h4>
+                  <ul
+                                    className="plain"
+                  >
+                                    <li>
+                                                      <a
+                                                                        href=""
+                                                      >
+                                                                        <i
+                                                                                          className="icon fa-twitter"
+                                                                        >
+                                                                                           
+                                                                        </i>
+                                                                        Twitter
+                                                      </a>
+                                    </li>
+                                    <li>
+                                                      <a
+                                                                        href=""
+                                                      >
+                                                                        <i
+                                                                                          className="icon fa-facebook"
+                                                                        >
+                                                                                           
+                                                                        </i>
+                                                                        Facebook
+                                                      </a>
+                                    </li>
+                                    <li>
+                                                      <a
+                                                                        href=""
+                                                      >
+                                                                        <i
+                                                                                          className="icon fa-instagram"
+                                                                        >
+                                                                                           
+                                                                        </i>
+                                                                        Instagram
+                                                      </a>
+                                    </li>
+                                    <li>
+                                                      <a
+                                                                        href=""
+                                                      >
+                                                                        <i
+                                                                                          className="icon fa-github"
+                                                                        >
+                                                                                           
+                                                                        </i>
+                                                                        Github
+                                                      </a>
+                                    </li>
+                  </ul>
+</section>,
+              ],
+              "className": "content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h3>
+                      Accumsan montes viverra
+</h3>,
+                    <p />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Accumsan montes viverra",
+                    },
+                    "ref": null,
+                    "rendered": "Accumsan montes viverra",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "p",
+                  },
+                ],
+                "type": "section",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4>
+                      Sem turpis amet semper
+</h4>,
+                    <ul
+                      className="alt"
+>
+                      <li>
+                                            <a
+                                                                  href=""
+                                            >
+                                                                  Dolor pulvinar sed etiam.
+                                            </a>
+                      </li>
+                      <li>
+                                            <a
+                                                                  href=""
+                                            >
+                                                                  Etiam vel lorem sed amet.
+                                            </a>
+                      </li>
+                      <li>
+                                            <a
+                                                                  href=""
+                                            >
+                                                                  Felis enim feugiat viverra.
+                                            </a>
+                      </li>
+                      <li>
+                                            <a
+                                                                  href=""
+                                            >
+                                                                  Dolor pulvinar magna etiam.
+                                            </a>
+                      </li>
+</ul>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Sem turpis amet semper",
+                    },
+                    "ref": null,
+                    "rendered": "Sem turpis amet semper",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <li>
+                          <a
+                                                    href=""
+                          >
+                                                    Dolor pulvinar sed etiam.
+                          </a>
+</li>,
+                        <li>
+                          <a
+                                                    href=""
+                          >
+                                                    Etiam vel lorem sed amet.
+                          </a>
+</li>,
+                        <li>
+                          <a
+                                                    href=""
+                          >
+                                                    Felis enim feugiat viverra.
+                          </a>
+</li>,
+                        <li>
+                          <a
+                                                    href=""
+                          >
+                                                    Dolor pulvinar magna etiam.
+                          </a>
+</li>,
+                      ],
+                      "className": "alt",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <a
+                            href=""
+>
+                            Dolor pulvinar sed etiam.
+</a>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Dolor pulvinar sed etiam.",
+                            "href": "",
+                          },
+                          "ref": null,
+                          "rendered": "Dolor pulvinar sed etiam.",
+                          "type": "a",
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <a
+                            href=""
+>
+                            Etiam vel lorem sed amet.
+</a>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Etiam vel lorem sed amet.",
+                            "href": "",
+                          },
+                          "ref": null,
+                          "rendered": "Etiam vel lorem sed amet.",
+                          "type": "a",
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <a
+                            href=""
+>
+                            Felis enim feugiat viverra.
+</a>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Felis enim feugiat viverra.",
+                            "href": "",
+                          },
+                          "ref": null,
+                          "rendered": "Felis enim feugiat viverra.",
+                          "type": "a",
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <a
+                            href=""
+>
+                            Dolor pulvinar magna etiam.
+</a>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Dolor pulvinar magna etiam.",
+                            "href": "",
+                          },
+                          "ref": null,
+                          "rendered": "Dolor pulvinar magna etiam.",
+                          "type": "a",
+                        },
+                        "type": "li",
+                      },
+                    ],
+                    "type": "ul",
+                  },
+                ],
+                "type": "section",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4>
+                      Magna sed ipsum
+</h4>,
+                    <ul
+                      className="plain"
+>
+                      <li>
+                                            <a
+                                                                  href=""
+                                            >
+                                                                  <i
+                                                                                        className="icon fa-twitter"
+                                                                  >
+                                                                                         
+                                                                  </i>
+                                                                  Twitter
+                                            </a>
+                      </li>
+                      <li>
+                                            <a
+                                                                  href=""
+                                            >
+                                                                  <i
+                                                                                        className="icon fa-facebook"
+                                                                  >
+                                                                                         
+                                                                  </i>
+                                                                  Facebook
+                                            </a>
+                      </li>
+                      <li>
+                                            <a
+                                                                  href=""
+                                            >
+                                                                  <i
+                                                                                        className="icon fa-instagram"
+                                                                  >
+                                                                                         
+                                                                  </i>
+                                                                  Instagram
+                                            </a>
+                      </li>
+                      <li>
+                                            <a
+                                                                  href=""
+                                            >
+                                                                  <i
+                                                                                        className="icon fa-github"
+                                                                  >
+                                                                                         
+                                                                  </i>
+                                                                  Github
+                                            </a>
+                      </li>
+</ul>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Magna sed ipsum",
+                    },
+                    "ref": null,
+                    "rendered": "Magna sed ipsum",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <li>
+                          <a
+                                                    href=""
+                          >
+                                                    <i
+                                                                              className="icon fa-twitter"
+                                                    >
+                                                                               
+                                                    </i>
+                                                    Twitter
+                          </a>
+</li>,
+                        <li>
+                          <a
+                                                    href=""
+                          >
+                                                    <i
+                                                                              className="icon fa-facebook"
+                                                    >
+                                                                               
+                                                    </i>
+                                                    Facebook
+                          </a>
+</li>,
+                        <li>
+                          <a
+                                                    href=""
+                          >
+                                                    <i
+                                                                              className="icon fa-instagram"
+                                                    >
+                                                                               
+                                                    </i>
+                                                    Instagram
+                          </a>
+</li>,
+                        <li>
+                          <a
+                                                    href=""
+                          >
+                                                    <i
+                                                                              className="icon fa-github"
+                                                    >
+                                                                               
+                                                    </i>
+                                                    Github
+                          </a>
+</li>,
+                      ],
+                      "className": "plain",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <a
+                            href=""
+>
+                            <i
+                                                        className="icon fa-twitter"
+                            >
+                                                         
+                            </i>
+                            Twitter
+</a>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <i
+                                className="icon fa-twitter"
+>
+                                 
+</i>,
+                              "Twitter",
+                            ],
+                            "href": "",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": " ",
+                                "className": "icon fa-twitter",
+                              },
+                              "ref": null,
+                              "rendered": " ",
+                              "type": "i",
+                            },
+                            "Twitter",
+                          ],
+                          "type": "a",
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <a
+                            href=""
+>
+                            <i
+                                                        className="icon fa-facebook"
+                            >
+                                                         
+                            </i>
+                            Facebook
+</a>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <i
+                                className="icon fa-facebook"
+>
+                                 
+</i>,
+                              "Facebook",
+                            ],
+                            "href": "",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": " ",
+                                "className": "icon fa-facebook",
+                              },
+                              "ref": null,
+                              "rendered": " ",
+                              "type": "i",
+                            },
+                            "Facebook",
+                          ],
+                          "type": "a",
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <a
+                            href=""
+>
+                            <i
+                                                        className="icon fa-instagram"
+                            >
+                                                         
+                            </i>
+                            Instagram
+</a>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <i
+                                className="icon fa-instagram"
+>
+                                 
+</i>,
+                              "Instagram",
+                            ],
+                            "href": "",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": " ",
+                                "className": "icon fa-instagram",
+                              },
+                              "ref": null,
+                              "rendered": " ",
+                              "type": "i",
+                            },
+                            "Instagram",
+                          ],
+                          "type": "a",
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <a
+                            href=""
+>
+                            <i
+                                                        className="icon fa-github"
+                            >
+                                                         
+                            </i>
+                            Github
+</a>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <i
+                                className="icon fa-github"
+>
+                                 
+</i>,
+                              "Github",
+                            ],
+                            "href": "",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": " ",
+                                "className": "icon fa-github",
+                              },
+                              "ref": null,
+                              "rendered": " ",
+                              "type": "i",
+                            },
+                            "Github",
+                          ],
+                          "type": "a",
+                        },
+                        "type": "li",
+                      },
+                    ],
+                    "type": "ul",
+                  },
+                ],
+                "type": "section",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "footer",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`creaction of component Header,Content,SectionListRace,SectionSeason,loading and footer component Header created 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <header
+        className="header"
+/>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": undefined,
+        "className": "header",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "header",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <header
+          className="header"
+/>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "header",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "header",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`creaction of component Header,Content,SectionListRace,SectionSeason,loading and footer component Loading created 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Loading />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="content"
+>
+        <p
+                className="loading"
+        />
+</div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <p
+          className="loading"
+/>,
+        "className": "content",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "loading",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "p",
+      },
+      "type": "div",
+    },
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="content"
+>
+          <p
+                    className="loading"
+          />
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            className="loading"
+/>,
+          "className": "content",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "loading",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "p",
+        },
+        "type": "div",
+      },
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`creaction of component Header,Content,SectionListRace,SectionSeason,loading and footer component SectionListRace created 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SectionListRace />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <section
+        className="wrapper"
+>
+        <div
+                className="inner"
+        >
+                <div
+                        className="highlights"
+                >
+                        <Loading />
+                        <SectionSeason
+                                updateSeason={[Function]}
+                        />
+                </div>
+        </div>
+</section>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="inner"
+>
+          <div
+                    className="highlights"
+          >
+                    <Loading />
+                    <SectionSeason
+                              updateSeason={[Function]}
+                    />
+          </div>
+</div>,
+        "className": "wrapper",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="highlights"
+>
+            <Loading />
+            <SectionSeason
+                        updateSeason={[Function]}
+            />
+</div>,
+          "className": "inner",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Loading />,
+              <SectionSeason
+                updateSeason={[Function]}
+/>,
+            ],
+            "className": "highlights",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "updateSeason": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "section",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <section
+          className="wrapper"
+>
+          <div
+                    className="inner"
+          >
+                    <div
+                              className="highlights"
+                    >
+                              <Loading />
+                              <SectionSeason
+                                        updateSeason={[Function]}
+                              />
+                    </div>
+          </div>
+</section>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="inner"
+>
+            <div
+                        className="highlights"
+            >
+                        <Loading />
+                        <SectionSeason
+                                    updateSeason={[Function]}
+                        />
+            </div>
+</div>,
+          "className": "wrapper",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="highlights"
+>
+              <Loading />
+              <SectionSeason
+                            updateSeason={[Function]}
+              />
+</div>,
+            "className": "inner",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Loading />,
+                <SectionSeason
+                  updateSeason={[Function]}
+/>,
+              ],
+              "className": "highlights",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "updateSeason": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "section",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`creaction of component Header,Content,SectionListRace,SectionSeason,loading and footer component SectionSeason created 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SectionSeason />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <section>
+        <div
+                className="content"
+        >
+                <h3>
+                        Select the season :
+                </h3>
+                <select
+                        id="season"
+                        onChange={[Function]}
+                        value={2005}
+                >
+                        <option
+                                value={2005}
+                        >
+                                2005
+                        </option>
+                        <option
+                                value={2006}
+                        >
+                                2006
+                        </option>
+                        <option
+                                value={2007}
+                        >
+                                2007
+                        </option>
+                        <option
+                                value={2008}
+                        >
+                                2008
+                        </option>
+                        <option
+                                value={2009}
+                        >
+                                2009
+                        </option>
+                        <option
+                                value={2010}
+                        >
+                                2010
+                        </option>
+                        <option
+                                value={2011}
+                        >
+                                2011
+                        </option>
+                        <option
+                                value={2012}
+                        >
+                                2012
+                        </option>
+                        <option
+                                value={2013}
+                        >
+                                2013
+                        </option>
+                        <option
+                                value={2014}
+                        >
+                                2014
+                        </option>
+                        <option
+                                value={2015}
+                        >
+                                2015
+                        </option>
+                </select>
+        </div>
+</section>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="content"
+>
+          <h3>
+                    Select the season :
+          </h3>
+          <select
+                    id="season"
+                    onChange={[Function]}
+                    value={2005}
+          >
+                    <option
+                              value={2005}
+                    >
+                              2005
+                    </option>
+                    <option
+                              value={2006}
+                    >
+                              2006
+                    </option>
+                    <option
+                              value={2007}
+                    >
+                              2007
+                    </option>
+                    <option
+                              value={2008}
+                    >
+                              2008
+                    </option>
+                    <option
+                              value={2009}
+                    >
+                              2009
+                    </option>
+                    <option
+                              value={2010}
+                    >
+                              2010
+                    </option>
+                    <option
+                              value={2011}
+                    >
+                              2011
+                    </option>
+                    <option
+                              value={2012}
+                    >
+                              2012
+                    </option>
+                    <option
+                              value={2013}
+                    >
+                              2013
+                    </option>
+                    <option
+                              value={2014}
+                    >
+                              2014
+                    </option>
+                    <option
+                              value={2015}
+                    >
+                              2015
+                    </option>
+          </select>
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Select the season :
+</h3>,
+            <select
+              id="season"
+              onChange={[Function]}
+              value={2005}
+>
+              <option
+                            value={2005}
+              >
+                            2005
+              </option>
+              <option
+                            value={2006}
+              >
+                            2006
+              </option>
+              <option
+                            value={2007}
+              >
+                            2007
+              </option>
+              <option
+                            value={2008}
+              >
+                            2008
+              </option>
+              <option
+                            value={2009}
+              >
+                            2009
+              </option>
+              <option
+                            value={2010}
+              >
+                            2010
+              </option>
+              <option
+                            value={2011}
+              >
+                            2011
+              </option>
+              <option
+                            value={2012}
+              >
+                            2012
+              </option>
+              <option
+                            value={2013}
+              >
+                            2013
+              </option>
+              <option
+                            value={2014}
+              >
+                            2014
+              </option>
+              <option
+                            value={2015}
+              >
+                            2015
+              </option>
+</select>,
+          ],
+          "className": "content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Select the season :",
+            },
+            "ref": null,
+            "rendered": "Select the season :",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value={2005}
+>
+                  2005
+</option>,
+                <option
+                  value={2006}
+>
+                  2006
+</option>,
+                <option
+                  value={2007}
+>
+                  2007
+</option>,
+                <option
+                  value={2008}
+>
+                  2008
+</option>,
+                <option
+                  value={2009}
+>
+                  2009
+</option>,
+                <option
+                  value={2010}
+>
+                  2010
+</option>,
+                <option
+                  value={2011}
+>
+                  2011
+</option>,
+                <option
+                  value={2012}
+>
+                  2012
+</option>,
+                <option
+                  value={2013}
+>
+                  2013
+</option>,
+                <option
+                  value={2014}
+>
+                  2014
+</option>,
+                <option
+                  value={2015}
+>
+                  2015
+</option>,
+              ],
+              "id": "season",
+              "onChange": [Function],
+              "value": 2005,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "2005",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2005,
+                  "value": 2005,
+                },
+                "ref": null,
+                "rendered": 2005,
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "2006",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2006,
+                  "value": 2006,
+                },
+                "ref": null,
+                "rendered": 2006,
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "2007",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2007,
+                  "value": 2007,
+                },
+                "ref": null,
+                "rendered": 2007,
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "2008",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2008,
+                  "value": 2008,
+                },
+                "ref": null,
+                "rendered": 2008,
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "2009",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2009,
+                  "value": 2009,
+                },
+                "ref": null,
+                "rendered": 2009,
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "2010",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2010,
+                  "value": 2010,
+                },
+                "ref": null,
+                "rendered": 2010,
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "2011",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2011,
+                  "value": 2011,
+                },
+                "ref": null,
+                "rendered": 2011,
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "2012",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2012,
+                  "value": 2012,
+                },
+                "ref": null,
+                "rendered": 2012,
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "2013",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2013,
+                  "value": 2013,
+                },
+                "ref": null,
+                "rendered": 2013,
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "2014",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2014,
+                  "value": 2014,
+                },
+                "ref": null,
+                "rendered": 2014,
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "2015",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2015,
+                  "value": 2015,
+                },
+                "ref": null,
+                "rendered": 2015,
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "section",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <section>
+          <div
+                    className="content"
+          >
+                    <h3>
+                              Select the season :
+                    </h3>
+                    <select
+                              id="season"
+                              onChange={[Function]}
+                              value={2005}
+                    >
+                              <option
+                                        value={2005}
+                              >
+                                        2005
+                              </option>
+                              <option
+                                        value={2006}
+                              >
+                                        2006
+                              </option>
+                              <option
+                                        value={2007}
+                              >
+                                        2007
+                              </option>
+                              <option
+                                        value={2008}
+                              >
+                                        2008
+                              </option>
+                              <option
+                                        value={2009}
+                              >
+                                        2009
+                              </option>
+                              <option
+                                        value={2010}
+                              >
+                                        2010
+                              </option>
+                              <option
+                                        value={2011}
+                              >
+                                        2011
+                              </option>
+                              <option
+                                        value={2012}
+                              >
+                                        2012
+                              </option>
+                              <option
+                                        value={2013}
+                              >
+                                        2013
+                              </option>
+                              <option
+                                        value={2014}
+                              >
+                                        2014
+                              </option>
+                              <option
+                                        value={2015}
+                              >
+                                        2015
+                              </option>
+                    </select>
+          </div>
+</section>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="content"
+>
+            <h3>
+                        Select the season :
+            </h3>
+            <select
+                        id="season"
+                        onChange={[Function]}
+                        value={2005}
+            >
+                        <option
+                                    value={2005}
+                        >
+                                    2005
+                        </option>
+                        <option
+                                    value={2006}
+                        >
+                                    2006
+                        </option>
+                        <option
+                                    value={2007}
+                        >
+                                    2007
+                        </option>
+                        <option
+                                    value={2008}
+                        >
+                                    2008
+                        </option>
+                        <option
+                                    value={2009}
+                        >
+                                    2009
+                        </option>
+                        <option
+                                    value={2010}
+                        >
+                                    2010
+                        </option>
+                        <option
+                                    value={2011}
+                        >
+                                    2011
+                        </option>
+                        <option
+                                    value={2012}
+                        >
+                                    2012
+                        </option>
+                        <option
+                                    value={2013}
+                        >
+                                    2013
+                        </option>
+                        <option
+                                    value={2014}
+                        >
+                                    2014
+                        </option>
+                        <option
+                                    value={2015}
+                        >
+                                    2015
+                        </option>
+            </select>
+</div>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Select the season :
+</h3>,
+              <select
+                id="season"
+                onChange={[Function]}
+                value={2005}
+>
+                <option
+                                value={2005}
+                >
+                                2005
+                </option>
+                <option
+                                value={2006}
+                >
+                                2006
+                </option>
+                <option
+                                value={2007}
+                >
+                                2007
+                </option>
+                <option
+                                value={2008}
+                >
+                                2008
+                </option>
+                <option
+                                value={2009}
+                >
+                                2009
+                </option>
+                <option
+                                value={2010}
+                >
+                                2010
+                </option>
+                <option
+                                value={2011}
+                >
+                                2011
+                </option>
+                <option
+                                value={2012}
+                >
+                                2012
+                </option>
+                <option
+                                value={2013}
+                >
+                                2013
+                </option>
+                <option
+                                value={2014}
+                >
+                                2014
+                </option>
+                <option
+                                value={2015}
+                >
+                                2015
+                </option>
+</select>,
+            ],
+            "className": "content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Select the season :",
+              },
+              "ref": null,
+              "rendered": "Select the season :",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value={2005}
+>
+                    2005
+</option>,
+                  <option
+                    value={2006}
+>
+                    2006
+</option>,
+                  <option
+                    value={2007}
+>
+                    2007
+</option>,
+                  <option
+                    value={2008}
+>
+                    2008
+</option>,
+                  <option
+                    value={2009}
+>
+                    2009
+</option>,
+                  <option
+                    value={2010}
+>
+                    2010
+</option>,
+                  <option
+                    value={2011}
+>
+                    2011
+</option>,
+                  <option
+                    value={2012}
+>
+                    2012
+</option>,
+                  <option
+                    value={2013}
+>
+                    2013
+</option>,
+                  <option
+                    value={2014}
+>
+                    2014
+</option>,
+                  <option
+                    value={2015}
+>
+                    2015
+</option>,
+                ],
+                "id": "season",
+                "onChange": [Function],
+                "value": 2005,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "2005",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2005,
+                    "value": 2005,
+                  },
+                  "ref": null,
+                  "rendered": 2005,
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2006",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2006,
+                    "value": 2006,
+                  },
+                  "ref": null,
+                  "rendered": 2006,
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2007",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2007,
+                    "value": 2007,
+                  },
+                  "ref": null,
+                  "rendered": 2007,
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2008",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2008,
+                    "value": 2008,
+                  },
+                  "ref": null,
+                  "rendered": 2008,
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2009",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2009,
+                    "value": 2009,
+                  },
+                  "ref": null,
+                  "rendered": 2009,
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2010",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2010,
+                    "value": 2010,
+                  },
+                  "ref": null,
+                  "rendered": 2010,
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2011",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2011,
+                    "value": 2011,
+                  },
+                  "ref": null,
+                  "rendered": 2011,
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2012",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2012,
+                    "value": 2012,
+                  },
+                  "ref": null,
+                  "rendered": 2012,
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2013",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2013,
+                    "value": 2013,
+                  },
+                  "ref": null,
+                  "rendered": 2013,
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2014",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2014,
+                    "value": 2014,
+                  },
+                  "ref": null,
+                  "rendered": 2014,
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2015",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 2015,
+                    "value": 2015,
+                  },
+                  "ref": null,
+                  "rendered": 2015,
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "section",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
