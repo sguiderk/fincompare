@@ -119,7 +119,7 @@ Mobile device
 
 `# Clone this git repo:`
 
-`git clone github.com/sguiderk/fincompare.git`
+`git clone https://github.com/sguiderk/fincompare.git`
 
 `cd fincompare/`
 
