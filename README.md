@@ -156,9 +156,17 @@ I’ve provided the possibility to run this app under docker
 
 `# Now to run it:`
 
-`docker container run -it -p 3000:3000 imagefincompare`
+`docker run --name imagefincompare -it -p 3000:3000 imagefincompare`
 
 Then it will open http://yourhost:3000 and the application will be running.
+
+## How run test on docker
+
+`# connect to the container:`
+
+`docker exec -it imagefincompare bash`
+
+`npm test`
 
 ## Component used for this app
 
