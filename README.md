@@ -8,6 +8,7 @@ This single page application that presents a list that shows the F1 world champi
 * preprocessor scripting language Sass  
 * A fast-interactive unit test runner with built-in support for coverage reporting with Jest and Enzyme.
 * A live development server that warns about common mistakes.
+
 ## Component app 
 The app has 6 components Header, Content, SectionListRace ,SectionSeason , loading and footer 
 * header component gets the header 
@@ -17,9 +18,88 @@ The app has 6 components Header, Content, SectionListRace ,SectionSeason , loadi
 * Loading component get animation loading while the sectionListRace load data 
 * Footer  component get the footer content
 ## Screen shot and demonstration of this app 
-![](https://i.imgur.com/WJCei2L.png)
-![](https://i.imgur.com/MUsQepE.png)
+
+![](https://i.imgur.com/L1yb1hal.png)
+
+![](https://i.imgur.com/n0VqH4al.png)
+
+![](https://i.imgur.com/TtjLhxtl.png)
+
+the app is responsive 
+
+Tablet device 
+
+![](https://i.imgur.com/nRlsaJxl.png)
+
+Mobile device
+
+![](https://i.imgur.com/u89b0mWl.png) 
+
 ## Folder Structure
+>
+>     |   config-overrides.js
+>     |   Dockerfile
+>     |   package.json
+>     |   README.md
+>     +---public
+>     |       favicon.ico
+>     |       index.html
+>     |       manifest.json
+>     | fincompare_blu.svg
+>     |src
+>     |   index.js
+>     +---api
+>     |       Race.js
+>     +---app
+>     |       App.js
+>     |       Content.js
+>     |       Footer.js
+>     |       Header.js
+>     |       Loading.js
+>     |       registerServiceWorker.js
+>     |       SectionListRace.js
+>     |       SectionSeason.js
+>     +---config
+>     |       Environments.js
+>     |       setupTests.js
+>     +---styles
+>     |   |   main.scss
+>     |   +---base
+>     |   |       _page.scss
+>     |   |       _reset.scss
+>     |   |       _typography.scss
+>     |   +---components
+>     |   |       _accordion.scss
+>     |   |       _actions.scss
+>     |   |       _box.scss
+>     |   |       _button.scss
+>     |   |       _driver.scss
+>     |   |       _form.scss
+>     |   |       _grid.scss
+>     |   |       _highlights.scss
+>     |   |       _icon.scss
+>     |   |       _icons.scss
+>     |   |       _inner.scss
+>     |   |       _list.scss
+>     |   |       _loading.scss
+>     |   |       _race.scss
+>     |   |       _wrapper.scss
+>     |   +---layout
+>     |   |       _footer.scss
+>     |   |       _header.scss
+>     |   |       _main.scss
+>     |   \---libs
+>     |           _breakpoints.scss
+>     |           _flexgrid.scss
+>     |           _functions.scss
+>     |           _grid.scss
+>     |           _mixins.scss
+>     |           _vars.scss
+>     |           _vendor.scss
+>     |           
+>     \---test
+>         |   App.test.js
+>              
 
 
 * the src/App contains all components 
@@ -27,76 +107,6 @@ The app has 6 components Header, Content, SectionListRace ,SectionSeason , loadi
 * the src/config contains the configuration's url api and the setup for jest 
 * the src/style contains all sass style 
 * the src/test contains the script test
-## Variables SASS 
-Below is an example of how to use variables. You will notice I have all my variables in one document for easy access.
-
-``	`$misc: (```
-		```z-index-base:		10000```
-	```);```
-
-
-	```$duration: (```
-		```menu:				0.5s,```
-		```banner:				1s,```
-		```transition:			0.2s```
-	```);```
-
-
-	``$size: (``
-		``border-radius:		4px,``
-		``element-height:		3.25rem,``
-		``element-margin:		2rem,``
-		``container-width:	80rem,``
-		``header-height:		3.25rem,``
-		``inner-width:		75rem,``
-		``menu-width:			20rem``
-	``);``
-
-
-	``$font: (``
-		``family:				('Raleway', Arial, Helvetica, sans-serif),``
-		``family-fixed:		('Courier New', monospace),``
-		``weight:				400,``
-		``weight-light:		300,``
-		``weight-xlite:		200,``
-		``weight-bold:		600``
-	``);``
-
-
-	``$palette: (``
-		``bg:					#ffffff,``
-		``fg:					#444444,``
-		``fg-bold:			#555555,``
-		``fg-light:			#bbbbbb,``
-		``border:				rgba(0,0,0,0.25),``
-		``border-bg:			rgba(0,0,0,0.075),``
-		``border-lt:			rgba(0,0,0,0.025),``
-		``highlight:			accent1,``
-		``success:            #d3f6d3,``
-
-		``accent1: (``
-			``bg:				#00b1ff,``
-			``fg:				rgba(255,255,255,0.75),``
-			``fg-bold:		#ffffff,``
-			``fg-light:		rgba(255,255,255,0.4),``
-			``border:			rgba(255,255,255,0.25),``
-			``border-bg:		rgba(255,255,255,0.075),``
-			``border-lt:		rgba(255,255,255,0.025),``
-			``highlight:		accent1``
-		``),``
-
-		``accent2: (``
-			``bg:				#111111,``
-			``fg:				rgba(255,255,255,0.5),``
-			``fg-bold:		#ffffff,``
-			``fg-light:		rgba(255,255,255,0.4),``
-			``border:			rgba(255,255,255,0.25),``
-			``border-bg:		rgba(255,255,255,0.075),``
-			``border-lt:		rgba(255,255,255,0.025),``
-			``highlight:		accent1``
-		``)``
-	``);-color;``
-``}``
 
 ## Resume App Technologies:
 * React
@@ -117,7 +127,7 @@ Below is an example of how to use variables. You will notice I have all my varia
 
 `npm install`
 
-`run the application `
+`# run the application `
 
 `npm start `
 
@@ -137,12 +147,14 @@ I’ve provided the possibility to run this app under docker
 Build container
 Now let's build it:
 
-`docker build -t imagedincompare .`
+`docker build -t imagefincompare .`
 
 Run container``
 Now to run it:
 
-`docker container run -it -p 3000:3000 imagedincompare`
+`docker container run -it -p 3000:3000 imagefincompare`
+
+Then it will open http://yourhost:3000 and the application will be running.
 
 ## Component used for this app
 
