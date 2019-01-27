@@ -1,4 +1,5 @@
 # React Front-end Challenge - FinCompare
+This single page application that presents a list that shows the F1 world champions starting from 2005 until 2015. Clicking on an item shows the list of the winners for every race for the selected year.
 ## What’s Included?
 * This app has everything to build a modern single-page React app:
 * React, JSX, es2015, boilerplate and Flow syntax support.
