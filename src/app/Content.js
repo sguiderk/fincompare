@@ -7,6 +7,7 @@ class Content extends React.Component {
 	         <section className="wrapper">
 		          <div className="inner">
 			          <div className="special"> 
+			           	 <i className="fa fa-flag-checkered"></i>
 			         	 <p className="content">{this.props.contentProp}</p>
 			          </div>
 		          </div>

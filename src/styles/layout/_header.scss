@@ -26,8 +26,8 @@
 	.header {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
-		@include vendor('justify-content', 'space-between');
-		background: _palette($accent, bg);
+		@include vendor('justify-content', 'start');
+		background-color: _palette(accent1, bg-light);
 		color: _palette($accent, fg);
 		cursor: default;
 		height: _size(header-height);
@@ -46,6 +46,14 @@
 			line-height: inherit;
 			padding: 0 1.25rem;
 			text-decoration: none;
+		}
+
+		> .logo img{
+		    max-height: 100%;
+		}
+
+	    > .content span {
+			color: _palette($accent, fg-bold);
 		}
 
 		> nav {
@@ -109,5 +117,9 @@
 	@include breakpoint('<=xsmall') {
 		.header {
 			min-width: 320px;
+			> .content span {
+		 	display:none;
+			}
 		}
+		
 	}
