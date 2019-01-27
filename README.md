@@ -5,19 +5,20 @@ This single page application that presents a list that shows the F1 world champi
 * React, JSX, es2015, boilerplate and Flow syntax support.
 * Language extras beyond es2015 like the object spread operator.
 * Auto prefixed CSS, so you don’t need -webkit- or other prefixes.
-* preprocessor scripting language Sass  
+* preprocessor scripting language Sass.
 * A fast-interactive unit test runner with built-in support for coverage reporting with Jest and Enzyme.
 * A live development server that warns about common mistakes.
 
-## Component app 
-The app has 6 components Header, Content, SectionListRace ,SectionSeason , loading and footer 
-* header component gets the header 
-* content component gets the content 
-* SectionSeason component gets the select list contains the season from 2005 until 2015 
-* SectionListRace component get the list of races ( raceName,url, date , Circuit.circuitName, Circuit.url )  uses and drivers (  givenName,familyName,url ,dateOfBirth ,nationality )  Ergast API in format json 
-* Loading component get animation loading while the sectionListRace load data 
+## Components app 
+The app has 6 components Header, Content, SectionListRace ,SectionSeason , loading and footer:
+* Header component gets the header.
+* Content component gets the content.
+* SectionSeason component gets the select list contains the season from 2005 until 2015. 
+* SectionListRace component get the list of races ( raceName,url, date , Circuit.circuitName, Circuit.url )  uses and drivers (  givenName,familyName,url ,dateOfBirth ,nationality )  Ergast API in format json.
+* Loading component get animation loading while the sectionListRace load data.
 * Footer  component get the footer content
-## Screen shot and demonstration of this app 
+
+## Screenshot and demonstration of this app 
 
 ![](https://i.imgur.com/L1yb1hal.png)
 
@@ -25,7 +26,7 @@ The app has 6 components Header, Content, SectionListRace ,SectionSeason , loadi
 
 ![](https://i.imgur.com/TtjLhxtl.png)
 
-the app is responsive 
+###the app is responsive 
 
 Tablet device 
 
@@ -45,8 +46,8 @@ Mobile device
 >     |       favicon.ico
 >     |       index.html
 >     |       manifest.json
->     | fincompare_blu.svg
->     |src
+>     |       fincompare_blu.svg
+>     +---src
 >     |   index.js
 >     +---api
 >     |       Race.js
@@ -101,20 +102,21 @@ Mobile device
 >         |   App.test.js
 >              
 
-
-* the src/App contains all components 
-* the src/api contains the api race 
-* the src/config contains the configuration's url api and the setup for jest 
-* the src/style contains all sass style 
-* the src/test contains the script test
+* the src/App contains all components. 
+* the src/API contains the API race.
+* the src/config contains the configuration's URL API and the setup for jest. 
+* the src/style contains all sass style.
+* the src/test contains the script test.
 
 ## Resume App Technologies:
+
 * React
 * Axios
 * react-collapsible-component
 * node-sass
 * sass-loader
 * Jest + Enzyme
+
 ## How to install on your computer
 
 `# Clone this git repo:`
@@ -134,8 +136,10 @@ Mobile device
 Then it will open http://localhost:3000 and the application will be running.
 
 ## Test
+
 The script of test app.test.js contains 17 cases of test and 11 of them are used with
-Snapshot, it test to automate process and create unit tests that can easily be overwritten and managed through time, and for the 6 We check if the api work perfectly and check the render of title and section with toEqual() function.
+Snapshot, it tests to automate the process and create unit tests that can easily be overwritten and managed through time, and for the 6 We check if the API work perfectly and check the render of title and section with toEqual() function.
+
 ## To Run Tests
 
 `npm test`
@@ -143,14 +147,14 @@ Snapshot, it test to automate process and create unit tests that can easily be o
 ![](https://i.imgur.com/hhkxH1t.png)
 
 ## How to install on docker
+
 I’ve provided the possibility to run this app under docker 
-Build container
-Now let's build it:
+
+`# Now let's build it:`
 
 `docker build -t imagefincompare .`
 
-Run container``
-Now to run it:
+`# Now to run it:`
 
 `docker container run -it -p 3000:3000 imagefincompare`
 
@@ -170,7 +174,7 @@ Link package :  [link](https://www.npmjs.com/package/node-sass).
 _**sass-loader :**_ Loads a Sass/SCSS file and compiles it to CSS.
 Link package :  [link](https://www.npmjs.com/package/sass-loader).
 
-_**Jest  : **_Loads a Sass/SCSS file and compiles it to CSS.
+_**Jest  : **_ Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase.
 Link package :  [link](https://www.npmjs.com/package/jest).
 
 _**Enzyme :**_ Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your React Components' output.
