@@ -3,9 +3,9 @@ This single page application that presents a list that shows the F1 world champi
 ## What’s Included?
 * This app has everything to build a modern single-page React app:
 * React, JSX, es2015, boilerplate and Flow syntax support.
-* Language extras beyond es2015 like the object spread operator.
+* Language extras beyond es2015 .
 * Auto prefixed CSS, so you don’t need -webkit- or other prefixes.
-* preprocessor scripting language Sass.
+* Preprocessor scripting language Sass.
 * A fast-interactive unit test runner with built-in support for coverage reporting with Jest and Enzyme.
 * A live development server that warns about common mistakes.
 
@@ -26,7 +26,7 @@ The app has 6 components Header, Content, SectionListRace ,SectionSeason , loadi
 
 ![](https://i.imgur.com/TtjLhxtl.png)
 
-###the app is responsive 
+The app is responsive 
 
 Tablet device 
 
@@ -112,9 +112,9 @@ Mobile device
 
 * React
 * Axios
-* react-collapsible-component
-* node-sass
-* sass-loader
+* React-collapsible-component
+* Node-sass
+* Sass-loader
 * Jest + Enzyme
 
 ## How to install on your computer
@@ -182,7 +182,7 @@ Link package :  [link](https://www.npmjs.com/package/node-sass).
 _**sass-loader :**_ Loads a Sass/SCSS file and compiles it to CSS.
 Link package :  [link](https://www.npmjs.com/package/sass-loader).
 
-_**Jest  : **_ Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase.
+**Jest  : ** Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase.
 Link package :  [link](https://www.npmjs.com/package/jest).
 
 _**Enzyme :**_ Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your React Components' output.
